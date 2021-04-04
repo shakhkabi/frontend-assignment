@@ -1,0 +1,208 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: #84A98C;
+    margin: 0px;
+    padding: 0px;
+}
+
+.option-box{
+ border-radius: 10px;
+ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+ background-color: #84A98C;
+ margin: 5% 3%; 
+ height: 300px; 
+}
+
+.filter-options{
+    display: flex;
+    background-color:#CAD2C5 ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+div {
+    overflow: hidden ;
+}
+
+.welcomeDiv {
+    background: url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/Chuck-Norris-in-The-Expendables.png) no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    margin: 0em;
+    
+}
+
+h4, button {
+   background-color: #354F52;
+}
+
+.filter-by-category {
+    flex: 1;
+}
+
+.filter-by-text {
+    flex: 1;
+}
+
+.generate-randomly{
+    flex: 1;
+}
+
+h4 {
+    text-align: center;
+    padding: 1.5rem 2.5rem;   
+    margin: 0 0 2rem 0;
+    font-size: 1.5rem;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;    
+}
+
+#randomJoke {
+    margin: 15% 20% 20% 15%;
+}
+
+#textJoke, #categoryJoke {
+    margin: 10% 20% 20% 15%;
+}
+
+select {
+    padding: 3% 30%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border:none;
+    background-color:  rgba(250, 250, 250, 0.5);
+    margin: 5% 9%;
+}
+
+
+h1 {
+    text-align: left;
+    color: #CAD2C5;
+    width: 30%;
+    margin-right: 60%;
+    margin-left: 5%;
+    font-size: 3rem;
+}
+
+.welcomeDiv p {
+    color: #CAD2C5;
+    width: 30%;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.welcomeDiv button {
+    color: #354F52;
+    align-items: baseline;
+    background-color: #CAD2C5;
+    width: 10%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+button {    
+    color:white;
+    padding: 10px 1rem;
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+button:focus {
+    outline: none;
+}
+input {
+    padding: 3% 20%;
+    margin: 5% 6%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 10px;
+    background-color:  rgba(250, 250, 250, 0.5);
+    text-align: center;
+}
+.result-joke {
+    margin: 5% 4%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    background-color: #CAD2C5;
+    border-radius: 10px;
+    height: 500px; 
+}
+
+.result-joke p {
+    font-size: 1.5rem;
+    display: block;
+    margin: 10%;
+    padding: 30px 30px;
+    text-align: center;    
+}
+
+button:hover {
+    border: none;
+    background-color: whitesmoke;
+    color: #354F52 ;
+}
+
+@media only screen and (max-width: 800px) {
+    .filter-options {
+        display: block;
+        margin-top: 5%;
+    }
+
+    input {
+        margin: 2% 6%;
+        padding: 3% 15%;
+    }
+
+    .welcomeDiv {
+         background: none;
+    }
+
+    .welcomeDiv h1{
+        width: 50%;
+    }
+
+    .welcomeDiv p{
+        width: 80%;
+    }
+
+    .welcomeDiv button{
+        width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    .filter-options {
+        display: block;
+        margin-top: 5%;
+    }
+
+    input {
+        margin: 2% 6%;
+        padding: 3% 10%;
+    }
+
+    select {
+        padding: 3% 25%;
+    }
+
+    .welcomeDiv {
+        background: none;
+   }
+
+   .welcomeDiv h1{
+       width: 50%;
+   }
+
+   .welcomeDiv p{
+       width: 80%;
+   }
+
+   .welcomeDiv button{
+       width: 50%;
+   }
+  }
