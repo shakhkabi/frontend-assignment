@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+    
+    <title>Chuck Norris Jokes</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <div class="welcomeDiv">
+       <h1>Welcome to the Chuck Norris Joke Generator!</h1>
+       <p>I hope you will have a lot of fun using this generator and find some hilarious jokes of a legend Chuck Norris</p>
+       <button id="letstart">Let's Start</button>
+    </div>
+   <div class="container" id="container">
+       <div class="filter-options" id="filter-options">           
+            <div class="filter-by-category option-box">
+                <h4>Generate by category</h4>
+                <select id="selectedNumber">
+                    <option>Category</option>
+                </select>  
+                <button id="categoryJoke">Filter and generate by category</button>     
+            </div>
+            <div class="generate-randomly option-box">
+                <h4>Generate randomly</h4>
+                <button id="randomJoke">Filter and generate randomly</button>
+            </div> 
+            <div class="filter-by-text option-box" >
+                <h4>Generate by text</h4>
+                <input type="text" id="textInput" placeholder="Enter text to filter search" required>
+                <button id="textJoke">Filter and generate by text</button>
+            </div>
+              
+        </div>                
+    </div>
+    <div class="result-joke">
+        <p id="joke">Please choose an option to to diplay Chuck Norris Jokes</p>
+    </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
